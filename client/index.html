@@ -1,0 +1,64 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+        <script src="webrtc.js"></script>
+    </head>
+
+    <body>
+        <video id="localVideo" autoplay muted style="width:40%;"></video>
+        <video id="remoteVideo" autoplay style="width:40%;"></video>
+
+        <br />
+
+        <input type="button" id="start" onclick="start(true)" value="Start Video"></input>
+
+        <script type="text/javascript">
+            pageReady();
+        </script>
+    </body>
+</html> -->
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Webcam Demo</title>
+  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+  <script src="webrtc.js"></script>
+</head>
+
+<body style="font-family: monospace;">
+  <center>
+    <div style="margin: 20px;"><strong>-= HTML5 Webcam Demo =-</strong></div>
+    <table border="" style="width: 100%;">
+      <tbody>
+        <tr style="width: 100%;">
+          <td style="width: 50%;">
+            <video id="localVideo" autoplay="true"></video>
+          </td>
+          <td style="width: 50%;">
+            <video id="remoteVideo" autoplay="true"></video>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </center>
+  <center>
+    <button id="callButton" onclick="call(true)">Call</button>
+    <button id="hangupButton" onclick="hangup(true)">Hang Up</button>
+    </center>
+  <script type="text/javascript">pageReady();</script>
+
+</body> 
+</html>
+
+
+
+
+
+
+
+
+
+
+
